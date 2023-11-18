@@ -1,3 +1,15 @@
+.logo{
+    background-image: url(Zestlogo.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 120px;
+    background-position: 50%;
+    position: absolute;
+    min-width: 300px;
+    display: flex;
+    z-index: 1000;
+    margin-bottom: 600px;
+}
 /* @import url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap'); */
 
 *
@@ -95,10 +107,12 @@ section .row:nth-child(even) div:nth-child(2) {
 .container
 {
     position: absolute;
-    min-width: 1100px;
+    min-width: 850px;
     min-height: 550px;
     display: flex;
     z-index: 1000;
+    margin-top: 120px;
+    justify-content: space-between;
     /* border-radius: 22px; */
     /* background-color: #fff; */
 
@@ -119,6 +133,18 @@ section .row:nth-child(even) div:nth-child(2) {
     justify-content: space-between;
     box-shadow: 0 20px 25px rgba(0,0,0,0.15); 
     border-radius: 22px;
+    right: 700px;
+}
+.nav{
+    position: absolute;
+    width: 350px;
+    height: 470px;
+    background: red;
+    z-index: 10000;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15); 
+    border-radius: 22px;
+    left: 700px;
+    top: 40px;
 }
 
 .container .contactInfo h2
@@ -199,13 +225,16 @@ section .row:nth-child(even) div:nth-child(2) {
 {
     position: absolute;
     padding: 70px 50px;
-    padding-left: 250px;
-    margin-left: 150px;
+    padding-left: 200px;
+    padding-right: 100px;
+    margin-left: ;
     width: calc(100% - 150px);
     height: 100%;
     background: #fff; 
     box-shadow: 0 50px 50px rgba(0,0,0,0.25);
     border-radius: 22px;
+    margin: auto;
+    width: 100%;
 }
 
 .container .contactForm h2
@@ -222,6 +251,7 @@ section .row:nth-child(even) div:nth-child(2) {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 30px;
+    padding-right: 80px;
 }
 
 .container .contactForm .formBox .inputBox
