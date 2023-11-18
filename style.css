@@ -139,7 +139,6 @@ section .row:nth-child(even) div:nth-child(2) {
     position: absolute;
     width: 350px;
     height: 470px;
-    background: red;
     z-index: 10000;
     box-shadow: 0 20px 25px rgba(0,0,0,0.15); 
     border-radius: 22px;
